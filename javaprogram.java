@@ -10,7 +10,7 @@ public class javaprogram{
         int container = 20;
         String container2 = "luffy";
         System.out.println(container);
-        System.out.println(container2);
+        System.out.println(container+ " is " + container2 + " age");
 
         int a = 10, b = 20;
         System.out.println(a + b);
@@ -20,16 +20,30 @@ public class javaprogram{
 
         //User input ->
                //integer input :
-        Scanner num1 = new Scanner(System.in);
-        int d = num1.nextInt();
-        Scanner num2 = new Scanner(System.in);
-        int e = num2.nextInt();
+        Scanner scan = new Scanner(System.in); //One scanner is enough for a block
+        int d = scan.nextInt();
+        int e = scan.nextInt();
         System.out.println(d + e);
 
                //String input :
-        Scanner name = new Scanner(System.in);
-        String myName = name.nextLine();
+        String myName = scan.nextLine();
         System.out.println(myName);
+
+        //Data types
+        
+        byte no1 = 10;
+        short no2 = 20;
+        int no3 = 30;
+        long no4 = 40;
+
+        float no_f1 = 20.30f;
+        double no_f2 = 333.33333;
+
+        char name1 = 'A';
+        String name2 = "Kamlesh";
+        
+        boolean bo1 = true;
+        boolean bo2 = false;
     } 
 }
 
