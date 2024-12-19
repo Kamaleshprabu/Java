@@ -28,5 +28,15 @@ public class stringcompare {
         else{
             System.out.println("Cup illa");
         }
+
+        //Exercise-2
+        String megna = scan.nextLine().toUpperCase();
+
+        if( megna.equals("DEAD")){
+            System.out.println("Megna is Dead");
+        }
+        else{
+            System.out.println("Megna is Alive");
+        }
     }
 }
