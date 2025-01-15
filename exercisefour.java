@@ -34,5 +34,7 @@ public class exercisefour {
         }
         System.out.println(numArray2[size/ 2]);
         System.out.println(7/2);
+
+        scan.close();
     }
 }

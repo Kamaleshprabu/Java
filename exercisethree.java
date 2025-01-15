@@ -32,5 +32,6 @@ public class exercisethree {
                 System.out.println("The number divisible by both 3 and 5: " + i);
             }
         }
+        scan.close();
     }
 }
