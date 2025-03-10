@@ -29,8 +29,6 @@ class truck extends vehicle{
     }
 }
 
-
-
 public class exercisesix2 {
     public static void main(String args[]){
         car c1 = new car();

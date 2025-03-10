@@ -1,5 +1,15 @@
 import java.util.*;
 
+class ClassA{
+    int mark = 10;
+
+    class ClassB{
+        void display(){
+            System.out.println(mark);
+        }
+    }
+}
+
 public class javaprogram{
     public static void main(String args[])
     {
@@ -25,6 +35,7 @@ public class javaprogram{
         int e = scan.nextInt();
         System.out.println(d + e);
 
+        scan.nextLine();
                //String input :
         String myName = scan.nextLine();
         System.out.println(myName);
@@ -44,6 +55,11 @@ public class javaprogram{
         
         boolean bo1 = true;
         boolean bo2 = false;
+
+        ClassA obj = new ClassA();
+        ClassA.ClassB obj2 = obj.new ClassB();
+        obj2.display();
+
     } 
 }
 

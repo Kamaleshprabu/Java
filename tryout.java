@@ -21,7 +21,8 @@ public class tryout {
         System.out.println("Do you want to enter details ?... Enter 1 for Yes or 0 for No !!!");
         int need = scan.nextInt();
         scan.nextLine();
-
+        scan.close();
+        
         if(need == 1){
             System.out.println("Enter Your Name: ");
             String name = scan.nextLine();

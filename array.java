@@ -20,10 +20,17 @@ public class array {
             System.out.println("Enter value for " + i);
             num[i] = scan.nextInt();
             sum += num[i];
+
+            scan.close();
         }
         System.out.println(sum);
 
         String name = new String("kamalesh");
         System.out.println(name);
-        String sis = "Suba";    }
+        String sis = "Suba";    
+
+        String[] names = {"Kamalesh", "Suba"};
+        System.out.println(names[1]);
+
+    }
 }
